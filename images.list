@@ -1,1 +1,7 @@
 docker.io/rancher/rancher:v2.8.3
+
+
+
+curl --location 'http://10.11.34.11:5001/api/detect' \
+--header 'x-api-key: 18c772d1dd12e5262c0e6171207d2238' \
+--form 'image=@"/E:/rancher-offline/test-imgs/306333961_1690409071352302_3212875172495236510_n.jpg"'
